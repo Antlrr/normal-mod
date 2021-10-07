@@ -3,7 +3,6 @@ hasItems: true
 hasliquid: true
 itemCapacity: 10
 liquidCapacity: 0.10
-liquidBoostIntensity: 8
 tier: 3
 drillTime: 230
 size: 2
