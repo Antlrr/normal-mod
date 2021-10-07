@@ -3,9 +3,9 @@ hasItems: true
 hasliquid: true
 itemCapacity: 10
 liquidCapacity: 2.1
-liquidBoostIntensity: 2.4
+liquidBoostIntensity: 3
 tier: 2
-drillTime: 120
+drillTime: 60
 size: 2
 requirements: [
    copper/23
