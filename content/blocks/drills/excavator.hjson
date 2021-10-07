@@ -3,14 +3,14 @@ hasItems: true
 hasliquid: true
 itemCapacity: 10
 liquidCapacity: 2.1
-liquidBoostIntensity: 3
-tier: 2
-drillTime: 60
+liquidBoostIntensity: 8
+tier: 3
+drillTime: 70
 size: 2
 requirements: [
-   copper/23
-   lead/18
-   titanium/16
+   copper/25
+   lead/20
+   titanium/15
 ]
 consumes: {
    liquid: {
