@@ -11,9 +11,7 @@ shootType: {
    frontColor: 8aa3f4
    backColor: 8aa3f4
    lifetime: 60
-   speed: 5
-   accel: 0.01
-   drag: 0
+   speed: 1
    damage: 6
    shrinkX: 0
    shrinkY: 0
@@ -29,7 +27,9 @@ shootType: {
          colorTo: 8aa3f40
          spin: 3
          sizeFrom: 0
-         sizeTo: 6
+         sizeTo: 8
+         strokeFrom: 1.50
+         strokeTo: 1.50
          }
          {
          type: WaveEffect
@@ -39,7 +39,9 @@ shootType: {
          colorTo: 8aa3f40
          spin: -3
          sizeFrom: 0
-         sizeTo: 6
+         sizeTo: 8
+         strokeFrom: 1.50
+         strokeTo: 1.50
          }
       ]
    }
