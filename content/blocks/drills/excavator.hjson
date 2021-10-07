@@ -2,10 +2,10 @@ type: Drill
 hasItems: true
 hasliquid: true
 itemCapacity: 10
-liquidCapacity: 2.1
+liquidCapacity: 0.10
 liquidBoostIntensity: 8
 tier: 3
-drillTime: 70
+drillTime: 230
 size: 2
 requirements: [
    copper/25
@@ -15,7 +15,7 @@ requirements: [
 consumes: {
    liquid: {
    liquid: water
-   amount: 2
+   amount: 0.9
    optional: true
    booster: true
    }
