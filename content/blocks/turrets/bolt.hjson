@@ -2,7 +2,7 @@ type: PowerTurret
 health: 220
 size: 1
 recoilAmount: -1
-powerUse: 1
+powerUse: 4
 reloadTime: 70
 shootSound: laser
 shootType: {
