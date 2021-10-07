@@ -3,7 +3,7 @@ health: 220
 size: 1
 recoilAmount: -1
 powerUse: 1
-reloadTime: 50
+reloadTime: 70
 shootSound: laser
 shootType: {
    type: BasicBulletType
@@ -17,7 +17,8 @@ shootType: {
    shrinkY: 0
    despawnEffect: {
       type: MultiEffect
-      lifetime: 10
+      lifetime: 30
+      layer: 60
       effects: [
          {
          type: WaveEffect
