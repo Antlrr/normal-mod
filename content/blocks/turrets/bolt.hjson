@@ -8,8 +8,14 @@ reloadTime: 150
 shootSound: laser
 chargeTime: 20
 chargeMaxDelay: 10
-chargeEffect:
-chargeBeginEffect:
+chargeEffect: {
+   type: WaveEffect
+   line: true
+   sides: 4
+   spin: 2
+   colorFrom: 8aa3f4
+   colorTo: 8aa3f4
+}
 shootY: 1
 shootType: {
   type: BasicBulletType
