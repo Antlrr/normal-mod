@@ -5,28 +5,6 @@ recoilAmount: -1
 powerUse: 1
 reloadTime: 50
 shootSound: laser
-chargeTime: 20
-chargeMaxDelay: 10
-chargeBeginEffect: {
-   type: ParticleEffect
-   line: true
-   strokeFrom: 0
-   strokeTo: 2
-   lenFrom: 8
-   lenTo: 0
-   colorFrom: 8aa3f4
-   colorTo: 8aa3f40
-}
-chargeEffect: {
-   type: WaveEffect
-   line: true
-   sides: 4
-   spin: 2
-   colorFrom: 8aa3f4
-   colorTo: 8aa3f40
-   sizeFrom: 0
-   sizeTo: 6
-}
 shootType: {
    type: BasicBulletType
    sprite: circle-bullet
@@ -42,6 +20,7 @@ shootType: {
    fragBullet: {
       type: LightningBulletType
       damage: 32
+      lightningLength: 6
    }
 }
  requirements: [
