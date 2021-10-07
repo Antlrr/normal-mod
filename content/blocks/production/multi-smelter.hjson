@@ -30,7 +30,7 @@ craftTime: 40
 category: crafting
 research: {
    parent: silicon-smelter
-   objectives: {
+   objectives: [
       kiln
-   }
+   ]
 }
