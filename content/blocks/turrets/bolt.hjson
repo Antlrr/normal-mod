@@ -1,6 +1,6 @@
 type: PowerTurret
 health: 720
-size: 3
+size: 1
 range: 100
 recoilAmount: -1
 powerUse: 1
@@ -14,17 +14,21 @@ chargeEffect: {
    sides: 4
    spin: 2
    colorFrom: 8aa3f4
-   colorTo: 8aa3f4
+   colorTo: 8aa3f40
+   sizeFrom: 0
+   sizeTo: 2
 }
-shootY: 1
 shootType: {
   type: BasicBulletType
   sprite: circle-bullet
   frontColor: 8aa3f4
   backColor: 8aa3f4
   lifetime: 80
-  speed: 1
+  speed: 3
+  accel: 0.1
   damage: 6
+  shrinkX: 0
+  shrinkY: 0
 }
  requirements: [
   silicon/15
