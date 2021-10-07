@@ -1,29 +1,28 @@
 type: PowerTurret
-description: better lancer i guess? (hlep how do i do charge effect)
-name: Beacon
-description: laser
 health: 720
 size: 3
-range: 200
-recoilAmount: 3
-powerUse: 2.6
+range: 100
+recoilAmount: -1
+powerUse: 1
 reloadTime: 150
 shootSound: laser
-chargeTime: 40
-chargeMaxDelay: 30
+chargeTime: 20
+chargeMaxDelay: 10
 chargeEffect:
 chargeBeginEffect:
-shootY: 5
+shootY: 1
 shootType: {
   type: BasicBulletType
+  sprite: circle-bullet
+  frontColor: 8aa3f4
+  backColor: 8aa3f4
+  lifetime: 80
+  speed: 1
   damage: 6
-  length: 170
 }
  requirements: [
-  silicon/120
-  titanium/100
-  plastanium/50
-  copper/120
+  silicon/15
+  titanium/20
 ]
 research: arc
 category: turret
