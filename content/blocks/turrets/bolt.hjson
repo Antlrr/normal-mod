@@ -1,13 +1,22 @@
 type: PowerTurret
-health: 720
+health: 220
 size: 1
-range: 100
 recoilAmount: -1
 powerUse: 1
-reloadTime: 150
+reloadTime: 50
 shootSound: laser
 chargeTime: 20
 chargeMaxDelay: 10
+chargeBeginEffect: {
+   type: ParticleEffect
+   line: true
+   strokeFrom: 0
+   strokeTo: 2
+   lenFrom: 8
+   lenTo: 0
+   colorFrom: 8aa3f4
+   colorTo: 8aa3f40
+}
 chargeEffect: {
    type: WaveEffect
    line: true
@@ -16,19 +25,24 @@ chargeEffect: {
    colorFrom: 8aa3f4
    colorTo: 8aa3f40
    sizeFrom: 0
-   sizeTo: 2
+   sizeTo: 6
 }
 shootType: {
-  type: BasicBulletType
-  sprite: circle-bullet
-  frontColor: 8aa3f4
-  backColor: 8aa3f4
-  lifetime: 80
-  speed: 3
-  accel: 0.1
-  damage: 6
-  shrinkX: 0
-  shrinkY: 0
+   type: BasicBulletType
+   sprite: circle-bullet
+   frontColor: 8aa3f4
+   backColor: 8aa3f4
+   lifetime: 30
+   speed: 3
+   accel: 0.05
+   damage: 6
+   shrinkX: 0
+   shrinkY: 0
+   fragBullets: 6
+   fragBullet: {
+      type: LightningBulletType
+      damage: 32
+   }
 }
  requirements: [
   silicon/15
