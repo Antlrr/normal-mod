@@ -22,10 +22,10 @@ consumes: {
      ]
    }
 }
-results: {
+results: [
    silicon/2
    metaglass/3
-   }
+   ]
 craftTime: 40
 category: crafting
 research: {
