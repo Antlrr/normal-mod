@@ -11,8 +11,9 @@ shootType: {
    frontColor: 8aa3f4
    backColor: 8aa3f4
    lifetime: 30
-   speed: 3
-   accel: 0.05
+   speed: 4
+   accel: 0.1
+   drag: 0
    damage: 6
    shrinkX: 0
    shrinkY: 0
