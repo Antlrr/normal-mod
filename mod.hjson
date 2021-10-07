@@ -1,0 +1,7 @@
+name: "normal"
+displayName: "A Normal Mod"
+author: Antlrr
+description: "A Normal Mindustry Mod, nothing special"
+version: "1.0"
+minGameVersion: "130"
+hidden: false
