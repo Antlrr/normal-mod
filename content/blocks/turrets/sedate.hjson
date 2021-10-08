@@ -2,13 +2,13 @@ type: PowerTurret
 health: 480
 size: 2
 shootCone: 360
-rotateSpeed: 0
 recoilAmount: 0
 powerUse: 10
 reloadTime: 380
 shootSound: artillery
 heatColor: 8aa3f4
 range: 300
+shootLength: -5
 shootType: {
    type: BasicBulletType
    sprite: normal-sedate-bullet
@@ -23,8 +23,8 @@ shootType: {
    homingPower: 1
    homingRange: 100
    damage: 35
-   shrinkX: 0
-   shrinkY: 0
+   shrinkX: 0.1
+   shrinkY: 0.1
    shootEffect: {
       type: MultiEffect
       lifetime: 20
