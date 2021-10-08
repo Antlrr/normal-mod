@@ -50,7 +50,6 @@ shootType: {
    shrinkX: 0
    shrinkY: 0
    }
-}
  requirements: [
     copper/45
     lead/28
