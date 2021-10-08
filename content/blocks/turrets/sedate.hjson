@@ -13,7 +13,7 @@ shootType: {
    type: BasicBulletType
    sprite: normal-sedate-bullet
    inaccuracy: 2
-   spin: 2
+   spin: 10
    width: 24
    height: 24
    frontColor: 8aa3f4
@@ -22,9 +22,10 @@ shootType: {
    speed: 0.5
    homingPower: 1
    homingRange: 100
-   damage: 35
+   damage: 18
    shrinkX: 0.1
    shrinkY: 0.1
+   pierce: true
    shootEffect: {
       type: MultiEffect
       lifetime: 20
