@@ -5,10 +5,24 @@ shootCone: 360
 rotateSpeed: 0
 recoilAmount: 0
 powerUse: 10
-reloadTime: 480
+reloadTime: 380
 shootSound: artillery
 heatColor: 8aa3f4
-shootEffect: {
+shootY: 0
+shootX: 0
+shootType: {
+   type: BasicBulletType
+   sprite: normal-sedate-heat
+   frontColor: 8aa3f4
+   backColor: 8aa3f4
+   lifetime: 700
+   speed: 0.5
+   homingPower: 1
+   homingRange: 100
+   damage: 35
+   shrinkX: 0
+   shrinkY: 0
+   shootEffect: {
       type: MultiEffect
       lifetime: 20
       effects: [
@@ -38,19 +52,7 @@ shootEffect: {
          }
       ]
    }
-shootType: {
-   type: BasicBulletType
-   sprite: sedate-heat
-   frontColor: 8aa3f4
-   backColor: 8aa3f4
-   lifetime: 700
-   speed: 0.5
-   homingPower: 1
-   homingRange: 20
-   damage: 35
-   shrinkX: 0
-   shrinkY: 0
-   }
+}
  requirements: [
     copper/45
     lead/28
