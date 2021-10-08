@@ -9,10 +9,10 @@ reloadTime: 380
 shootSound: artillery
 heatColor: 8aa3f4
 range: 300
-shootY: -5
 shootType: {
    type: BasicBulletType
    sprite: normal-sedate-bullet
+   inaccuracy: 2
    spin: 2
    width: 24
    height: 24
