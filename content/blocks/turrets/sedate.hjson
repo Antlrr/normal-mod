@@ -1,6 +1,7 @@
 type: PowerTurret
 health: 480
 size: 2
+shootCone: 360
 rotateSpeed: 0
 recoilAmount: 0
 powerUse: 10
