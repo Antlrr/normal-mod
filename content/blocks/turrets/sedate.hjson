@@ -10,16 +10,16 @@ shootSound: artillery
 heatColor: 8aa3f4
 shootType: {
    type: BasicBulletType
-   shootY: 0
+   shootY: -4
    shootX: 0
    sprite: normal-sedate-heat
    spin: 2
-   width: 8
-   height: 8
+   width: 18
+   height: 18
    frontColor: 8aa3f4
    backColor: 8aa3f4
    lifetime: 700
-   speed: 0.1
+   speed: 0.5
    homingPower: 1
    homingRange: 100
    damage: 35
