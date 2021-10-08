@@ -8,11 +8,10 @@ powerUse: 10
 reloadTime: 380
 shootSound: artillery
 heatColor: 8aa3f4
-range: 600
+range: 300
+shootY: -5
 shootType: {
    type: BasicBulletType
-   shootY: -6
-   shootX: 0
    sprite: normal-sedate-heat
    spin: 2
    width: 24
