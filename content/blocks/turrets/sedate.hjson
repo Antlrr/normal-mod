@@ -8,15 +8,18 @@ powerUse: 10
 reloadTime: 380
 shootSound: artillery
 heatColor: 8aa3f4
-shootY: 0
-shootX: 0
 shootType: {
    type: BasicBulletType
+   shootY: 0
+   shootX: 0
    sprite: normal-sedate-heat
+   spin: 2
+   width: 8
+   height: 8
    frontColor: 8aa3f4
    backColor: 8aa3f4
    lifetime: 700
-   speed: 0.5
+   speed: 0.1
    homingPower: 1
    homingRange: 100
    damage: 35
