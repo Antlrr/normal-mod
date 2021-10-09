@@ -1,13 +1,14 @@
 type: PowerTurret
 health: 480
 size: 2
-shootCone: 50
+shootCone: 360
 recoilAmount: 0
 powerUse: 10
 reloadTime: 380
 shootSound: artillery
 range: 300
 shootLength: 0
+rotateSpeed: 0
 shootType: {
    type: BasicBulletType
    sprite: normal-sedate-bullet
