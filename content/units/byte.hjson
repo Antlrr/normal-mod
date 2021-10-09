@@ -37,44 +37,45 @@ weapons: [
       shrinkY: 0
       despawnSound: spark
       shootEffect: {
-      type: MultiEffect
-      lifetime: 30
-      effects: [
-         {
-         type: WaveEffect
-         line: true
-         sides: 3
-         colorFrom: 8aa3f4
-         colorTo: 8aa3f4
-         spin: 3
-         sizeFrom: 10
-         sizeTo: 0
-         strokeFrom: 1
-         strokeTo: 0
-         }
-         {
-         type: WaveEffect
-         line: true
-         sides: 6
-         colorFrom: 8aa3f4
-         colorTo: 8aa3f4
-         spin: -3
-         sizeFrom: 10
-         sizeTo: 8
-         strokeFrom: 1
-         strokeTo: 0
-         }
-         {
-         type: ParticleEffect
-         lifetime: 50
-         region: circle
-         sizeFrom: 0
-         sizeTo: 6
-         colorFrom: 8aa3f4
-         colorTo: 8aa3f4
-         }
-      ]
-   }
+         type: MultiEffect
+         lifetime: 30
+         effects: [
+            {
+            type: WaveEffect
+            line: true
+            sides: 3
+            colorFrom: 8aa3f4
+            colorTo: 8aa3f4
+            spin: 3
+            sizeFrom: 10
+            sizeTo: 0
+            strokeFrom: 1
+            strokeTo: 1
+            }
+            {
+            type: WaveEffect
+            line: true
+            sides: 6
+            colorFrom: 8aa3f4
+            colorTo: 8aa3f4
+            spin: -3
+            sizeFrom: 10
+            sizeTo: 8
+            strokeFrom: 1
+            strokeTo: 0
+            }
+            {
+            type: ParticleEffect
+            lifetime: 50
+            region: circle
+            sizeFrom: 0
+            sizeTo: 2
+            colorFrom: 8aa3f4
+            colorTo: 8aa3f4
+            particles: 1
+            }
+         ]
+      }
       trailEffect: {
          type: ParticleEffect
          particles: 2
