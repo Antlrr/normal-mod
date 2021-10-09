@@ -7,7 +7,7 @@ powerUse: 10
 reloadTime: 380
 shootSound: artillery
 range: 300
-shootLength: -5
+shootLength: 0
 shootType: {
    type: BasicBulletType
    sprite: normal-sedate-bullet
