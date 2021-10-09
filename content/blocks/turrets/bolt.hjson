@@ -15,6 +15,7 @@ shootType: {
    damage: 6
    shrinkX: 0
    shrinkY: 0
+   despawnSound: spark
    despawnEffect: {
       type: MultiEffect
       lifetime: 30
