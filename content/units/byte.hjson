@@ -30,6 +30,7 @@ weapons: [
    bullet: {
       type: BasicBulletType
       sprite: circle-bullet
+      absorbable: false
       frontColor: 8aa3f4
       backColor: 8aa3f4
       lifetime: 160
