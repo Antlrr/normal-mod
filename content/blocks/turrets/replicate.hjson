@@ -9,15 +9,15 @@ shootLength: -5
 shootType: {
    type: BasicBulletType
    sprite: circle-bullet
-   width: 8
-   height: 8
+   width: 4
+   height: 4
    frontColor: 8aa3f4
    backColor: 8aa3f4
    trailLength: 6
    trailColor: 8aa3f4
-   lifetime: 40
+   lifetime: 10
    speed: 10
-   homingPower: 1
+   homingPower: 3
    homingRange: 100
    damage: 18
    shrinkX: 0.1
