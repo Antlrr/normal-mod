@@ -24,7 +24,7 @@ weapons: [
    reload: 60
    autoTarget: true
    firstShotDelay: 40
-   shootY: -3
+   shootY: -2
    bullet: {
       type: BasicBulletType
       sprite: circle-bullet
