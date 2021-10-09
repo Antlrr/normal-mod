@@ -9,6 +9,7 @@ shootSound: artillery
 range: 300
 shootLength: 0
 rotateSpeed: 0
+heatColor: 8aa3f4
 shootType: {
    type: BasicBulletType
    sprite: normal-sedate-bullet
@@ -28,7 +29,7 @@ shootType: {
    pierce: true
    shootEffect: {
       type: MultiEffect
-      lifetime: 20
+      lifetime: 60
       effects: [
          {
          type: WaveEffect
