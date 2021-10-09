@@ -6,7 +6,7 @@ range: 180
 powerUse: 2
 reloadTime: 80
 shootSound: lasershoot
-shootLength: -5
+shootLength: 1
 shootType: {
    type: BasicBulletType
    sprite: circle-bullet
