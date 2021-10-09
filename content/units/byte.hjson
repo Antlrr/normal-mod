@@ -25,6 +25,8 @@ weapons: [
    autoTarget: true
    firstShotDelay: 40
    shootY: -1
+   shootStatus: unmoving
+   shootStatusDuration: 40
    bullet: {
       type: BasicBulletType
       sprite: circle-bullet
@@ -36,7 +38,6 @@ weapons: [
       shrinkX: 0
       shrinkY: 0
       despawnSound: spark
-      parentizeEffects: true
       shootEffect: {
          type: MultiEffect
          lifetime: 30
