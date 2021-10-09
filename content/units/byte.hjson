@@ -4,7 +4,7 @@ health: 230
 speed: 2
 accel: 0.10
 armor: 2
-drag: 0.50
+drag: 0.25
 controller: FlyingAI
 lightRadius: 30
 lightColor: 8aa3f4
@@ -73,7 +73,7 @@ weapons: [
             sizeFrom: 0
             sizeTo: 4
             colorFrom: 8aa3f4
-            colorTo: 8aa3f4
+            colorTo: 8aa3f40
             particles: 1
             length: 0
             }
