@@ -1,0 +1,33 @@
+type: PowerTurret
+health: 360
+size: 1
+recoilAmount: 2
+powerUse: 2
+reloadTime: 80
+shootSound: lasershoot
+shootLength: -5
+shootType: {
+   type: BasicBulletType
+   sprite: circle-bullet
+   width: 8
+   height: 8
+   frontColor: 8aa3f4
+   backColor: 8aa3f4
+   trailLength: 6
+   trailColor: 8aa3f4
+   lifetime: 40
+   speed: 10
+   homingPower: 1
+   homingRange: 100
+   damage: 18
+   shrinkX: 0.1
+   shrinkY: 0.5
+   pierce: true
+}
+ requirements: [
+    copper/35
+    silicon/15
+    titanium/25
+]
+research: bolt
+category: turret
