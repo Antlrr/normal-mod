@@ -13,6 +13,7 @@ heatColor: 8aa3f4
 shootType: {
    type: BasicBulletType
    sprite: normal-sedate-bullet
+   absorbable: false
    inaccuracy: 2
    spin: 10
    width: 24
