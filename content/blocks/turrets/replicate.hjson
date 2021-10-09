@@ -24,6 +24,7 @@ shootType: {
    shrinkX: 0.1
    shrinkY: 0.5
    pierce: true
+   pierceBuilding: true
    fragBullets: 2
    despawnSound: lasershoot
    fragBullet: {
@@ -39,10 +40,11 @@ shootType: {
       speed: 5
       homingPower: 3
       homingRange: 100
-      damage: 18
+      damage: 1875
       shrinkX: 0.1
       shrinkY: 0.5
       pierce: true
+      pierceBuilding: true
       fragBullets: 2
       despawnSound: lasershoot
       fragBullet: {
@@ -62,6 +64,7 @@ shootType: {
          shrinkX: 0.1
          shrinkY: 0.5
          pierce: true
+         pierceBuilding: true
       }
    }
 }
