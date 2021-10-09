@@ -24,7 +24,6 @@ shootType: {
    shrinkX: 0.1
    shrinkY: 0.5
    pierce: true
-   pierceBuilding: true
    fragBullets: 2
    despawnSound: lasershoot
    fragBullet: {
