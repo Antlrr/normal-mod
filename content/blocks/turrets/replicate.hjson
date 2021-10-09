@@ -15,8 +15,8 @@ shootType: {
    backColor: 8aa3f4
    trailLength: 6
    trailColor: 8aa3f4
-   lifetime: 10
-   speed: 10
+   lifetime: 30
+   speed: 5
    homingPower: 3
    homingRange: 100
    damage: 18
