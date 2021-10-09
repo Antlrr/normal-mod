@@ -1,0 +1,26 @@
+type: flying
+flying: true
+health: 230
+speed: 2
+accel: 0.10
+armor: 2
+drag: 0.01
+controller: FlyingAI
+lightRadius: 30
+lightColor: 8aa3f4
+lowAltitude: true
+rotateShooting: true
+rotateSpeed: 2
+weapons: [
+   {
+   name: byte-weapon
+   top: false
+   mirror: false
+   rotate: false
+   x: 0
+   y: 0
+   shootSound: laser
+   recoil: 0
+   reload: 60
+   autoTarget: true
+   bullet: {
