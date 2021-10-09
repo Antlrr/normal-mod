@@ -36,6 +36,7 @@ weapons: [
       shrinkX: 0
       shrinkY: 0
       despawnSound: spark
+      parentizeEffects: true
       shootEffect: {
          type: MultiEffect
          lifetime: 30
