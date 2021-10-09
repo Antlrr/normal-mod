@@ -49,37 +49,38 @@ weapons: [
          lifetime: 30
          layer: 60
          effects: [
-         {
-         type: WaveEffect
-         line: true
-         sides: 3
-         colorFrom: 8aa3f4
-         colorTo: 8aa3f400
-         spin: 3
-         sizeFrom: 8
-         sizeTo: 8
-         strokeFrom: 1.50
-         strokeTo: 1.50
+            {
+            type: WaveEffect
+            line: true
+            sides: 3
+            colorFrom: 8aa3f4
+            colorTo: 8aa3f400
+            spin: 3
+            sizeFrom: 8
+            sizeTo: 8
+            strokeFrom: 1.50
+            strokeTo: 1.50
+            }
+            {
+            type: WaveEffect
+            line: true
+            sides: 6
+            colorFrom: 8aa3f4
+            colorTo: 8aa3f400
+            spin: -3
+            sizeFrom: 8
+            sizeTo: 8
+            strokeFrom: 1.50
+            strokeTo: 1.50
+            }
+         ]
+      }
+      fragBullets: 6
+      fragBullet: {
+         type: LightningBulletType
+         damage: 12
+         lightningLength: 6
          }
-         {
-         type: WaveEffect
-         line: true
-         sides: 6
-         colorFrom: 8aa3f4
-         colorTo: 8aa3f400
-         spin: -3
-         sizeFrom: 8
-         sizeTo: 8
-         strokeFrom: 1.50
-         strokeTo: 1.50
-         }
-      ]
-   }
-   fragBullets: 6
-   fragBullet: {
-      type: LightningBulletType
-      damage: 12
-      lightningLength: 6
       }
    }
 ]
