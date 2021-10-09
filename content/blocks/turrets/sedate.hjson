@@ -55,7 +55,7 @@ shootType: {
          }
       ]
    }
-   hitEffect: {
+   despawnEffect: {
       type: MultiEffect
       lifetime: 20
       effects: [
