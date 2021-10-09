@@ -22,7 +22,7 @@ shootType: {
    lifetime: 700
    speed: 0.5
    homingPower: 1
-   homingRange: 100
+   homingRange: 310
    damage: 18
    shrinkX: 0.1
    shrinkY: 0.1
