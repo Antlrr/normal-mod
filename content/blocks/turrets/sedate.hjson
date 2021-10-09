@@ -5,7 +5,7 @@ shootCone: 360
 recoilAmount: 0
 powerUse: 10
 reloadTime: 380
-shootSound: corexplode
+shootSound: explosionbig
 range: 300
 shootLength: 0
 rotateSpeed: 0
