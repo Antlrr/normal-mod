@@ -2,6 +2,7 @@ type: PowerTurret
 health: 360
 size: 1
 recoilAmount: 2
+range: 20
 powerUse: 2
 reloadTime: 80
 shootSound: lasershoot
@@ -23,6 +24,44 @@ shootType: {
    shrinkX: 0.1
    shrinkY: 0.5
    pierce: true
+   fragBullets: 2
+   fragBullet: {
+      type: BasicBulletType
+      sprite: circle-bullet
+      width: 4
+      height: 4
+      frontColor: 8aa3f4
+      backColor: 8aa3f4
+      trailLength: 6
+      trailColor: 8aa3f4
+      lifetime: 30
+      speed: 5
+      homingPower: 3
+      homingRange: 100
+      damage: 18
+      shrinkX: 0.1
+      shrinkY: 0.5
+      pierce: true
+      fragBullets: 2
+      fragBullet: {
+         type: BasicBulletType
+         sprite: circle-bullet
+         width: 4
+         height: 4
+         frontColor: 8aa3f4
+         backColor: 8aa3f4
+         trailLength: 6
+         trailColor: 8aa3f4
+         lifetime: 30
+         speed: 5
+         homingPower: 3
+         homingRange: 100
+         damage: 18
+         shrinkX: 0.1
+         shrinkY: 0.5
+         pierce: true
+      }
+   }
 }
  requirements: [
     copper/35
