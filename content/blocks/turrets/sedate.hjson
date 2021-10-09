@@ -27,6 +27,7 @@ shootType: {
    shrinkX: 0.1
    shrinkY: 0.1
    pierce: true
+   pierceBuilding: true
    shootEffect: {
       type: MultiEffect
       lifetime: 60
@@ -94,5 +95,5 @@ shootType: {
     silicon/35
     titanium/25
 ]
-research: bolt
+research: replicate
 category: turret
