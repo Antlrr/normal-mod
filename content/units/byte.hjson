@@ -61,6 +61,7 @@ weapons: [
          sizeTo: 6
          colorFrom: 8aa3f4
          colorTo: 8aa3f4
+         }
       ]
    }
    bullet: {
