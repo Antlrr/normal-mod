@@ -25,7 +25,18 @@ weapons: [
    autoTarget: true
    firstShotDelay: 40
    shootY: -3
-   shootEffect: {
+   bullet: {
+      type: BasicBulletType
+      sprite: circle-bullet
+      frontColor: 8aa3f4
+      backColor: 8aa3f4
+      lifetime: 160
+      speed: 1
+      damage: 6
+      shrinkX: 0
+      shrinkY: 0
+      despawnSound: spark
+      shootEffect: {
       type: MultiEffect
       lifetime: 30
       effects: [
@@ -55,7 +66,7 @@ weapons: [
          }
          {
          type: ParticleEffect
-         lifetime: 60
+         lifetime: 50
          region: circle
          sizeFrom: 0
          sizeTo: 6
@@ -64,17 +75,6 @@ weapons: [
          }
       ]
    }
-   bullet: {
-      type: BasicBulletType
-      sprite: circle-bullet
-      frontColor: 8aa3f4
-      backColor: 8aa3f4
-      lifetime: 160
-      speed: 1
-      damage: 6
-      shrinkX: 0
-      shrinkY: 0
-      despawnSound: spark
       trailEffect: {
          type: ParticleEffect
          particles: 2
