@@ -80,5 +80,6 @@ weapons: [
       type: LightningBulletType
       damage: 12
       lightningLength: 6
+      }
    }
-}
+]
