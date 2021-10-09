@@ -7,6 +7,7 @@ reloadTime: 70
 shootSound: laser
 shootType: {
    type: BasicBulletType
+   absolutely: false
    sprite: circle-bullet
    frontColor: 8aa3f4
    backColor: 8aa3f4
