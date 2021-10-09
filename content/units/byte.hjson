@@ -24,7 +24,7 @@ weapons: [
    reload: 60
    autoTarget: true
    firstShotDelay: 40
-   shootY: -2
+   shootY: -1
    bullet: {
       type: BasicBulletType
       sprite: circle-bullet
@@ -73,6 +73,7 @@ weapons: [
             colorFrom: 8aa3f4
             colorTo: 8aa3f4
             particles: 1
+            length: 0
             }
          ]
       }
