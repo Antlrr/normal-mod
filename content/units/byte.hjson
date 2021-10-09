@@ -71,7 +71,7 @@ weapons: [
             lifetime: 50
             region: circle
             sizeFrom: 0
-            sizeTo: 2
+            sizeTo: 4
             colorFrom: 8aa3f4
             colorTo: 8aa3f4
             particles: 1
