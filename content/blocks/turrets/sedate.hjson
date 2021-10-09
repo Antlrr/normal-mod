@@ -23,11 +23,13 @@ shootType: {
    speed: 0.5
    homingPower: 1
    homingRange: 310
-   damage: 18
+   damage: 38
    shrinkX: 0.1
    shrinkY: 0.1
    pierce: true
    pierceBuilding: true
+   splashDamage: 20
+   splashDamageRadius: 16
    shootEffect: {
       type: MultiEffect
       lifetime: 60
