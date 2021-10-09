@@ -2,7 +2,7 @@ type: PowerTurret
 health: 360
 size: 1
 recoilAmount: 2
-range: 80
+range: 180
 powerUse: 2
 reloadTime: 80
 shootSound: lasershoot
