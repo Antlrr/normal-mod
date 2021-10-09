@@ -26,6 +26,7 @@ shootType: {
    pierce: true
    fragBullets: 2
    despawnSound: lasershoot
+   absorbable: false
    fragBullet: {
       type: BasicBulletType
       sprite: circle-bullet
