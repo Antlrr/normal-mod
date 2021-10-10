@@ -1,0 +1,11 @@
+type: PowerNode
+health: 175
+laserRange: 6
+maxNodes: 10
+requirements: [
+  copper/1
+  lead/3
+  thorium/2
+]
+category: power
+research: power-node
