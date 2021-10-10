@@ -14,6 +14,7 @@ rotateSpeed: 2
 weapons: [
    {
    name: byte-weapon
+   heatColor: 8aa3f4
    top: false
    mirror: false
    rotate: false
