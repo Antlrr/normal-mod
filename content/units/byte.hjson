@@ -16,8 +16,6 @@ weapons: [
    {
    name: byte-weapon
    heatColor: 8aa3f4
-   collidesTiles: true
-   layer: 10
    top: false
    mirror: false
    rotate: false
@@ -35,6 +33,8 @@ weapons: [
       type: BasicBulletType
       sprite: circle-bullet
       absorbable: false
+      collidesTiles: true
+      layer: 10
       frontColor: 8aa3f4
       backColor: 8aa3f4
       lifetime: 160
@@ -94,6 +94,7 @@ weapons: [
          colorTo: 8aa3f400
       }
       trailColor: 8aa3f4
+      trailChance: 1
       despawnEffect: {
          type: MultiEffect
          lifetime: 30
