@@ -9,13 +9,15 @@ drag: 0.25
 controller: FlyingAI
 lightRadius: 30
 lightColor: 8aa3f4
-lowAltitude: true
+lowAltitude: false
 rotateShooting: true
 rotateSpeed: 2
 weapons: [
    {
    name: byte-weapon
    heatColor: 8aa3f4
+   collidesTiles: true
+   layer: 10
    top: false
    mirror: false
    rotate: false
