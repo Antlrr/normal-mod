@@ -30,11 +30,12 @@ weapons: [
    shootY: -1
    shootStatus: unmoving
    shootStatusDuration: 40
+   collidesTiles: true
    bullet: {
       type: BasicBulletType
       sprite: circle-bullet
       absorbable: false
-      collidesTiles: true
+      collidesTile: true
       layer: 10
       frontColor: 8aa3f4
       backColor: 8aa3f4
