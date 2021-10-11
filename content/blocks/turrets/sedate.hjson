@@ -62,7 +62,7 @@ shootType: {
       ]
    }
    trailColor: 8aa3f4
-   trailChance: 180
+   trailChance: 0.01
    shootEffect: {
       type: MultiEffect
       lifetime: 60
