@@ -86,8 +86,9 @@ weapons: [
       }
       trailEffect: {
          type: ParticleEffect
+         lifetime: 30
          particles: 2
-         sizeFrom: 1
+         sizeFrom: 4
          sizeTo: 0
          region: circle
          colorFrom: 8aa3f4
