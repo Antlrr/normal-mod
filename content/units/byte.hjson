@@ -34,7 +34,7 @@ weapons: [
       type: BasicBulletType
       sprite: circle-bullet
       absorbable: false
-      collidesTiles: true
+      collideTiles: true
       layer: 10
       frontColor: 8aa3f4
       backColor: 8aa3f4
