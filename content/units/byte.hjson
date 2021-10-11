@@ -18,7 +18,8 @@ weapons: [
    heatColor: 8aa3f4
    top: false
    mirror: false
-   rotate: false
+   rotate: true
+   rotateSpeed: 2
    x: 0
    y: 0
    shootSound: laser
@@ -86,9 +87,9 @@ weapons: [
       }
       trailEffect: {
          type: ParticleEffect
-         lifetime: 30
+         lifetime: 60
          particles: 2
-         sizeFrom: 4
+         sizeFrom: 3
          sizeTo: 0
          region: circle
          colorFrom: 8aa3f4
