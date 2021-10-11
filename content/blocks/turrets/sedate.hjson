@@ -37,7 +37,7 @@ shootType: {
       effects: [
          {
          type: ParticleEffect
-         length: 3
+         length: 18
          colorFrom: 8aa3f4
          colorTo: 8aa3f400
          spin: 3
@@ -47,7 +47,7 @@ shootType: {
          }
          {
          type: ParticleEffect
-         length: 3
+         length: 18
          colorFrom: 8aa3f4
          colorTo: 8aa3f400
          spin: 3
