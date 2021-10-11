@@ -1,5 +1,6 @@
-type: flying
-flying: true
+type: naval
+flying: false
+canBoost: true
 health: 230
 speed: 2
 accel: 0.10
