@@ -40,7 +40,7 @@ shootType: {
          colorFrom: 8aa3f4
          colorTo: 8aa3f400
          spin: 3
-         sizeFrom: 3
+         sizeFrom: 1.50
          sizeTo: 1
          region: circle
          }
@@ -50,7 +50,7 @@ shootType: {
          colorTo: 8aa3f400
          spin: 3
          sizeFrom: 1
-         sizeTo: 3
+         sizeTo: 1.50
          region: circle
          }
       ]
