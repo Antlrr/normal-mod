@@ -36,28 +36,22 @@ shootType: {
       lifetime: 120
       effects: [
          {
-         type: WaveEffect
-         line: true
-         sides: 3
+         type: ParticleEffect
          colorFrom: 8aa3f4
          colorTo: 8aa3f400
          spin: 3
          sizeFrom: 16
-         sizeTo: 16
-         strokeFrom: 1.50
-         strokeTo: 0
+         sizeTo: 5
+         region: circle
          }
          {
-         type: WaveEffect
-         line: true
-         sides: 6
+         type: ParticleEffect
          colorFrom: 8aa3f4
          colorTo: 8aa3f400
-         spin: -3
-         sizeFrom: 17
+         spin: 3
+         sizeFrom: 5
          sizeTo: 16
-         strokeFrom: 1.50
-         strokeTo: 0
+         region: circle
          }
       ]
    }
