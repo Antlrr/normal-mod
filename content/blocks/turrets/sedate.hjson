@@ -33,7 +33,7 @@ shootType: {
    splashDamageRadius: 16
    trailEffect: {
       type: MultiEffect
-      lifetime: 30
+      lifetime: 120
       effects: [
          {
          type: WaveEffect
@@ -62,7 +62,7 @@ shootType: {
       ]
    }
    trailColor: 8aa3f4
-   trailChance: 0.01
+   trailChance: 0.05
    shootEffect: {
       type: MultiEffect
       lifetime: 60
